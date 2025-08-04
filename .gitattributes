@@ -1,2 +1,85 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.env.*
+
+# Flask instance folder (if used)
+instance/
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+
+# Logs and database
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# Testing output
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Distribution/build
+build/
+dist/
+*.egg-info/
+
+# Static build output (optional)
+static/build/
+static/dist/
+static/*.min.*
+static/*.map
+
+# Node / frontend build (if used)
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+.DS_Store
+
+# Flask-specific
+*.mo
+*.pot
+*.bak
+
+# Mac and Linux files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Jupyter and notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage reports
+.coverage
+coverage.xml
+nosetests.xml
+
+# Temporary files
+*.tmp
+*.temp
+*.orig
+
+# Local uploads or media (optional)
+uploads/
+media/
